@@ -13,10 +13,10 @@ async def on_message(message):
     # メッセージ送信者がbotは無視
     if message.author.bot:
         return
-    # 「/vacushistory」は「」
+    # 「/vh」で「vacusのhistory」
     if message.content == '/vh':
         vacushistory = https://xchain.io/api/history/vacus
-        await message.channel.request(vacushistory)
+        await message.channel.send(vacushistory)
 
 
 bot.run(token)
