@@ -18,5 +18,7 @@ async def on_message(message):
         vacushistory = https://xchain.io/api/history/vacus
         await result = request.get(vacushistory)
 
+vacushistory = https://xchain.io/api/history/vacus
+result = request.get(vacushistory)
 
 bot.run(token)
