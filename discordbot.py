@@ -16,6 +16,6 @@ async def on_message(message):
     # 「/vh」で「vacusのhistory」
     if message.content == '/vh':
         vacushistory = 	https://xchain.io/api/market/vacus/history
-            result = request.get(vacushistory)
+            await.result = request.get(vacushistory)
             
 bot.run(token)
