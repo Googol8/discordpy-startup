@@ -17,7 +17,8 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pong')
+   vacushistory = https://xchain.io/api/history/vacus
+    await ctx.send(vacushistory)
 
 
 bot.run(token)
